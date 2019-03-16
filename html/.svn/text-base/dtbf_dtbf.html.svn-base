@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>答题补分</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/dtbf.css"/>
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_805205_5k1b4tl94vd.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">倒计时<span id="CountDown" style="margin-left: 10px;">00:00</span></h1>
+		</header>
+		<div class="mui-content muicont">
+			<div class="mui-slider">
+				<ul class="mui-slider-group">
+			        <li v-for="itmes in listLength" :accesskey="itmes" class="mui-table-view-cell active mui-slider-item">
+			            <span class="dt-pan"><img src="../img/danx2.png" alt="" /></span>
+			    		<span class="font18">{{itmes}}.2007-2011年我国全年货物出口额与上一年相比增长超过30%的年份有几个？</span>
+			        	<div class="margintop10">
+				    		<div class="mui-input-row mui-radio mui-left">
+								<label><span class="dt-radio ">A</span>1个</label>
+								<input class="opacity"  value="A" type="radio">
+							</div>
+							<div class="mui-input-row mui-radio mui-left">
+								<label><span class="dt-radio">B</span>2个</label>
+								<input class="opacity" value="B" type="radio">
+							</div>
+							<div class="mui-input-row mui-radio mui-left">
+								<label><span class="dt-radio">C</span>3个</label>
+								<input class="opacity" value="C" type="radio">
+							</div>
+							<div class="mui-input-row mui-radio mui-left">
+								<label><span class="dt-radio">D</span>4个</label>
+								<input class="opacity" value="D" type="radio">
+							</div>
+							<input type="hidden" class="correct" placeholder="正确答案，如所选答案和此答案不匹配则做题错误" value="D" />
+				    	</div> 
+			        </li>
+			    </ul>
+		    </div>
+		    <div class="dt-foot">
+		    	<div class="mui-row">
+		    		<a  @tap="showIndexList" class="mui-col-xs-8 mui-text-center padd15-0">
+			    		<span class="iconfont icon-jiahao"></span>&nbsp;
+			    		<span>{{selceteds}}/{{listLength}}</span>
+			    	</a>
+			    	<a class="mui-col-xs-4">
+			    		<button @tap="JiaoJuan" type="button" class="bgh">交卷</button>
+			    	</a>
+		    	</div>
+		    	<!--所有题目列表-->
+		    	<div class="dtfoot-cont">
+		    		<ul class="number-list">
+		    			<li v-for="(itme,key) in listLength" @tap="changeList($event,key)" :key="key"><span class="">{{itme}}</span></li>
+		    		</ul>
+		    	</div>
+		    </div>
+		    
+		    
+		    <!--交卷弹窗开始-->
+			<div class="jiaojuan padd10">
+				<p class="textcenter font18 margintop10 color11 bolder">答题补分</p>
+				<div class="mui-row mui-text-center">
+					<div class="mui-col-xs-4">
+						<span class="font18 bolder">{{listLength}}</span>
+						<p>题目总数</p>
+					</div>
+					<div class="mui-col-xs-4">
+						<span class="font18 bolder">{{selceteds}}</span>
+						<p>已答题数</p>
+					</div>
+					<div class="mui-col-xs-4">
+						<span class="font18 bolder">{{weida}}</span>
+						<p>未答题数</p>
+					</div>
+				</div>
+				
+				<div class="mui-row dt-tan margintop10">
+					<a class="mui-col-xs-6 jj-button1">
+						<button @tap="SendJiaoJuan" type="button" class="color1 bolder">交卷</button>
+					</a>
+					<a class="mui-col-xs-6 jj-button2">
+						<button @tap="lkj" type="button" class="bolder bgh">继续答题</button>
+					</a>
+				</div>
+			</div>
+			<div class="mui-backdrop"></div>
+			<!--交卷结束-->
+			
+			<!--答题时间到弹窗-->
+			<div class="shijd">
+				<div class="shijd-box padd10">
+					<p class="textcenter font18 margintop10 color11 bolder">答题时间到</p>
+					<div class="mui-row mui-text-center">
+						<div class="mui-col-xs-4">
+							<span class="font18 bolder">{{weida}}</span>
+							<p>未答题数</p>
+						</div>
+						<div class="mui-col-xs-4">
+							<span class="font18 bolder">{{correct}}</span>
+							<p>考试得分</p>
+						</div>
+						<div class="mui-col-xs-4">
+							<span class="font18 bolder">{{err}}</span>
+							<p>答错题数</p>
+						</div>
+					</div>
+					<div class="mui-row dt-tan margintop10">
+						<a href="dtbf_dtcj.html">
+							<button @tap="SendJiaoJuan" type="button" class="color1 bolder">交卷</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/Gather.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-v3-3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init({
+			    gestureConfig:{
+				    tap: true, //默认为true
+				    swipe: true, //默认为true
+			    }
+			});
+			
+			var vm = new Vue({
+				el:".mui-content",
+				data:{
+					examination:{},							//考试Json 数据
+					StratTime:Gather.getTime().value,		//开始答题时间
+					endTime:"",								//交卷时间
+					userTime:"",							//答题所用时长
+					listLength:100,							//
+					selected:[],							//所选择的答案及题号及正确答案JSON
+					grade:"成绩不合格",						//考试成绩是否合格
+					weida:0,								//未答的题数
+					selceteds:0,							//已答题数
+					answer:"",								//当前题的答案
+					correct:0,								//正确的题数
+					err:0,									//错误的题数
+					duration:30,							//考试时长
+					pass:3,								//及格分数，小于90分则不合格
+					
+				},
+				methods:{
+					lkj(){// 点击弹窗继续答题
+						$('.jiaojuan').removeClass('active')
+						$('.mui-backdrop').removeClass('active')
+					},
+					showIndexList(){// 点击底部题目数量
+						$('.dt-foot').toggleClass('active')
+					},
+					isAccomplish(){//是否全部已经答完
+						//如已经答完则跳转到成绩页面
+						if(this.selceteds == this.listLength){
+							clearInterval(timer)
+							setTimeout(function(){
+								window.location.href = "http://www.baidu.com"
+							},2000)
+						}
+					},
+					yongshi(Strat,end){//计算答题用时
+						var StratTime = new Date(Date.parse(Strat))
+						var endTime = new Date(Date.parse(end))
+						mm = Gather.checkTime(parseInt((endTime - StratTime) / 1000 / 60 % 60, 10));	//计算剩余的分钟数
+        				ss = Gather.checkTime(parseInt((endTime - StratTime) / 1000 % 60, 10));			//计算剩余的秒数
+						
+						this.userTime = mm+":"+(ss-1);//答题所用时长
+						
+					},
+					JiaoJuan(){//点击底部交卷按钮
+						$('.jiaojuan').addClass('active')
+						$('.mui-backdrop').addClass('active')
+						
+						//检测考试成绩是否合格
+						vm.failToPass();
+						
+					},
+					SendJiaoJuan(){//确定交卷
+						vm.endTime = Gather.getTime().value;//交卷时间
+						this.yongshi(this.StratTime,this.endTime);//计算答题用时
+						
+						this.examination.StratTime = this.StratTime;//开始答题时间
+						this.examination.endTime   = this.endTime;//交卷时间
+						this.examination.userTime  = this.userTime;//答题所用时长
+						this.examination.selected  = this.selected;//答题所选择答案及题号及正确答案数组Json
+						//this.examination.grade     = this.grade;//考试成绩是否合格
+						this.examination.weida     = this.weida;//未答的题数
+						this.examination.selceteds = this.selceteds;//已答题数
+						this.examination.correct   = this.correct;//正确的题数
+						this.examination.err       = this.err;//错误的题数
+						this.examination.duration  = this.duration;//考试时长
+						clearInterval(timer);
+						console.log(JSON.stringify(this.examination))
+					},
+					failToPass(){//检测考试成绩是否合格
+						this.grade = (this.correct >= this.pass) ? this.grade = "合格" : this.grade = "成绩不合格";
+						if(this.correct >= this.pass){
+							$('jj-button1').on("tap",function(){
+								mui.openWindow({
+									url:"dtbf_dtcj_jg.jtml",
+									id:"dtbf_dtcj_jg"
+								})
+							})
+						}
+					},
+					changeList(e,index){
+						widths = document.documentElement.clientWidth;
+						this.pageIndex = index;
+						$(".mui-slider-group").css({"transform":"translate3d(-"+(widths*this.pageIndex)+"px, 0px, 0px) translateZ(0px)"})
+						vm.showIndexList()
+					},
+					selecteds(selceteds,answer){
+						
+					}
+				}
+			})
+			
+			
+			window.onload = function(){
+				$(".mui-slider-group .mui-table-view-cell").first().addClass("active")
+			}
+			
+			// 选项、答题选择答案
+			var width = 0;
+			$(document.body).on("tap",".margintop10 .mui-input-row",function(){
+				_self = $(this);
+				width += document.documentElement.clientWidth;
+				Stide = _self.parents(".mui-table-view-cell").attr("accesskey");
+				var correct = _self.parents(".margintop10").find(".correct").val()
+				var dd = _self.find("input[type='radio']")
+				var answer = dd.val()
+				_self.parents(".margintop10").find("input[type='radio']").attr("disabled",true)
+				if(!dd.prop("checked")){
+					vm.selceteds += 1;
+						setTimeout(function(){
+							_self.parents(".mui-slider-group").css({"transform":"translate3d(-"+width+"px, 0px, 0px) translateZ(0px)"})
+						},1000)
+					_self.find(".dt-radio").addClass("active")
+					
+				}
+				
+				vm.selected.push({
+					Stide:Stide,//题号
+					answers:answer,//已选答案
+					correct:correct,//正确答案
+				})
+				
+				setListIndex(_self,Stide,answer,correct)
+				
+				vm.weida = vm.listLength - vm.selceteds;//计算未答题数
+				
+				vm.isAccomplish()//检测是否已经全部题目答完
+				
+				console.log(JSON.stringify(vm.selected))
+				
+			})
+			
+			
+			
+			/**
+			 * //统计正确及错误题数
+			 * //题号标记已答及标记当前题对错
+			 * @param {Object} index
+			 * @param {Object} answer  所选答案
+			 * @param {Object} correct 正确答案
+			 */
+			function setListIndex(ev,index,answer,correct){
+				if(answer == correct){
+					vm.correct +=1;//正确的题累加
+					ev.parents(".mui-table-view-cell").find(".Correct").removeClass("mui-hidden")
+					$(".number-list li").eq(index-1).addClass("activeok")
+					vm.answer = correct;//正确答案
+				}else{
+					vm.err +=1;//错误的题累加
+					ev.parents(".mui-table-view-cell").find(".Correct").removeClass("mui-hidden")
+					$(".number-list li").eq(index-1).addClass("activeerr")
+				}
+			}
+			
+			//考试时间倒计时
+			var maxtime = vm.duration * 60; //一个小时，按秒计算，自己调整!   
+            function CountDown() {
+                if (maxtime >= 0) {
+                    minutes = Math.floor(maxtime / 60);
+                    seconds = Math.floor(maxtime % 60);
+                    msg = Gather.checkTime(minutes) + ":" + Gather.checkTime(seconds);
+                    document.getElementById("CountDown").innerHTML = msg;
+                    if (maxtime == 5 * 60)mui.toast("距离考试结束还剩5分钟");
+                    --maxtime;
+                 } else{
+                    clearInterval(timer);
+	                $('.shijd').addClass("active")
+	                setTimeout(function(){
+	                	$('.shijd-box').addClass("active")
+	                },100)
+                }
+            }
+            
+            timer =  setInterval(function(){CountDown()}, 1000);
+			
+		</script>
+	</body>
+</html>

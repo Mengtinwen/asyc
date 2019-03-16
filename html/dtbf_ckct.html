@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>查看错题</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/dtbf.css"/>
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_805205_x6ewplu226.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">查看错题</h1>
+		</header>
+		<div class="mui-content muicont">
+			<div class="mui-slider">
+				<ul class="mui-slider-group">
+			        <li v-for="itmes in listLength" :accesskey="itmes" class="mui-table-view-cell active mui-slider-item">
+			            <span class="dt-pan"><img src="../img/danx2.png" alt="" /></span>
+			    		<span class="font18">第{{itmes}}题.2007-2011年我国全年货物出口额与上一年相比增长超过30%的年份有几个？</span>
+			        	<div class="margintop10">
+				    		<div class="mui-input-row mui-radio mui-left">
+								<label><span class="dt-radio ">A</span>1个</label>
+								<input class="opacity" name="radio1" type="radio">
+							</div>
+							<div class="mui-input-row mui-radio mui-left">
+								<label><span class="dt-radio">B</span>2个</label>
+								<input class="opacity" name="radio1" type="radio">
+							</div>
+							<div class="mui-input-row mui-radio mui-left">
+								<label><span class="dt-radio">C</span>3个</label>
+								<input class="opacity" name="radio1" type="radio">
+							</div>
+							<div class="mui-input-row mui-radio mui-left">
+								<label><span class="dt-radio">D</span>4个</label>
+								<input class="opacity" name="radio1" type="radio">
+							</div>
+				    	</div>
+				    	<div class="dt-xj margintop20">
+				    		<div class="mui-row">
+				    			<div class="mui-col-xs-6 font18 bolder">试题详解</div>
+				    			<div class="mui-col-xs-6 mui-text-right bolder">错题率 <span class="color4">0%</span></div>
+				    		</div>
+				    		<div class="mui-card Correct">
+				    			<span class="bolder font15">答案 <span>C</span></span>
+				    			<p>解析：如果某一年货物出口额与上一年相比增长超过30%，那么上一年的出口额乘以1.3应该小于当年的出口额，由此容易得到，只有2010年的同比增长超过30%，因此选择A。</p>
+				    		</div>
+				    	</div>
+			        </li>
+			    </ul>
+		    </div>
+		    <div class="dt-foot bgcolf">
+		    	<p class="textcenter">共错<span class="color9">{{listLength}}</span>题  <!-- 第( <span class="color9">{{selceteds}}</span> )题--></p>
+		    </div>
+		</div>
+		
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/Gather.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-v3-3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init({
+			    gestureConfig:{
+				    tap: true, //默认为true
+				    swipe: true, //默认为true
+			    }
+			});
+		
+			//16685531997
+			/**  左右滑动切换题目 ***  START  **/
+			
+			//向左滑
+			$(document.body).on("swipeleft",".mui-slider-group .mui-table-view-cell",function(){
+				var $self = $(this)
+				if(vm.selceteds < vm.listLength){
+					console.log(parseInt($self.attr("accesskey"))+1)
+					vm.selceteds = parseInt($self.attr("accesskey"))+1
+					$self.removeClass("active").next().addClass("active")
+				}
+			});
+			
+			//向右滑
+			document.querySelector(".mui-slider-group .mui-table-view-cell").addEventListener("swiperight",function(){
+				var $self = $(this)
+				console.log(parseInt($self.attr("accesskey"))-1)
+				if(vm.selceteds > 1){
+					console.log(parseInt($self.attr("accesskey"))-1)
+					vm.selceteds = parseInt($self.attr("accesskey"))-1
+					$self.removeClass("active").prev().addClass("active")
+				}
+			});
+			/**  左右滑动切换题目  ***  END  **/
+			
+			
+			var vm = new Vue({
+				el:".mui-content",
+				data:{
+					examination:{},							//考试结果 Json 数据
+					listLength:30,							//
+					selected:[],							//所选择的答案及题号及正确答案JSON
+					answer:"",								//当前题的答案
+					duration:0.1,							//考试时长
+					pageIndex:0,
+					selceteds:1,
+				},
+				methods:{
+					showIndexList(){// 点击底部题目数量
+						$('.dt-foot').toggleClass('active')
+					},
+				}
+			})
+			
+			window.onload = function(){
+				$(".padd10 .mui-table-view-cell").first().addClass("active")
+			}
+		</script>
+	</body>
+</html>

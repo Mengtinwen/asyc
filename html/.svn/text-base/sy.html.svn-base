@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../css/yc_style.css" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar tobacco_top mui-bar-nav">
+			<h1 class="mui-title">宣传教育</h1>
+		</header>
+		<div class="mui-content">
+			<div class="tobacco_poster">
+				<img src="../img/u159.png" />
+			</div>
+			<div class="tobacco_nav"><!--切换目录开始-->
+				<div class="tobacco_top_Catalog mui-row">
+					<div class="mui-col-sm-3 mui-col-xs-3 tobacco_title1">
+						<div class="mui-col-sm-7 mui-col-xs-7 tobacco_title"><img src="../img/u79.png" class="mui-col-sm-8 mui-col-xs-8" /></div>
+						<p class="mui-col-sm-12 mui-col-xs-12 ">通知公告</p>
+					</div>
+					<div class="mui-col-sm-3 mui-col-xs-3 tobacco_title2">
+						<div class="mui-col-sm-7 mui-col-xs-7 tobacco_title"><img src="../img/u77.png" class="mui-col-sm-8 mui-col-xs-8 tobacco_top_icon" /></div>
+						<p class="mui-col-sm-12 mui-col-xs-12">执法公示</p>
+					</div>
+					<div class="mui-col-sm-3 mui-col-xs-3 tobacco_title3">
+						<div class="mui-col-sm-7 mui-col-xs-7 tobacco_title"><img src="../img/u75.png" class="mui-col-sm-8 mui-col-xs-8" /></div>
+						<p class="mui-col-sm-12 mui-col-xs-12">法律法规</p>
+					</div>
+					<div class="mui-col-sm-3 mui-col-xs-3 tobacco_title4">
+						<div class="mui-col-sm-7 mui-col-xs-7 tobacco_title"><img src="../img/u76.png" class="mui-col-sm-8 mui-col-xs-8" /></div>
+						<p class="mui-col-sm-12 mui-col-xs-12">宣传漫画</p>
+					</div>
+				</div>
+			</div><!--切换目录结束-->
+			<div class="tobacco_contentBox">
+				<div class="tobacco_content1"><!--通知公告开始-->
+					<p class="tobaccoNotice">通知公告</p>
+					<a href="#" class="tobaccoNotice_content">
+						<div class="tobaccoTitle1">
+							<div class="tobaccoTitle">当地中海的标题当地中海的标题当地中海的标题当地中海的标题当地中海的标题</div>
+							<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+						</div>
+						<div class="tobaccoContent">
+							<div class="cont">
+								<span class="tobacContent1">
+								百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。
+								
+								</span>
+								<span class="full_text">全文</span>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="tobaccoNotice_content">
+						<div class="tobaccoTitle1">
+							<div class="tobaccoTitle">当地中海的标题当地中海的标题当地中海的标题当地中海的标题当地中海的标题</div>
+							<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+						</div>
+						<div class="tobaccoContent">
+							<div class="cont">
+								<span class="tobacContent1">
+								百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。
+								
+								</span>
+								<span class="full_text">全文</span>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="tobaccoNotice_content">
+						<div class="tobaccoTitle1">
+							<div class="tobaccoTitle">当地中海的标题当地中海的标题当地中海的标题当地中海的标题当地中海的标题</div>
+							<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+						</div>
+						<div class="tobaccoContent">
+							<div class="cont">
+								<span class="tobacContent1">
+								百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。
+								
+								</span>
+								<span class="full_text">全文</span>
+							</div>
+						</div>
+					</a>
+				</div><!--通知公告结束-->
+				<div class="tobacco_content2"><!--执法公示开始-->
+					<p class="tobaccoNotice">执法公示</p>
+					<div class="enforce_the_law">
+						<a href="#" class="tobaccoNotice_content2">
+							<div class="tobaccoTitle1">
+								<div class="tobaccoTitle">当地中海的标题当地中海的标题当地中海的标题当地中海的标题当地中海的标题</div>
+								<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+							</div>
+							<div class="tobaccoContent">
+								<div class="cont">
+									<span class="tobacContent1">
+									百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。
+									
+									</span>
+									<span class="full_text">全文</span>
+								</div>
+							</div>
+						</a>
+						<div class="tobacco_list_pic">
+							<img src="../img/u120.svg"/>
+							<img src="../img/u120.svg"/>
+							<img src="../img/u120.svg"/>
+						</div>
+					</div>
+					<div class="enforce_the_law">
+						<a href="#" class="tobaccoNotice_content2">
+							<div class="tobaccoTitle1">
+								<div class="tobaccoTitle">当地中海的标题当地中海的标题当地中海的标题当地中海的标题当地中海的标题</div>
+								<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+							</div>
+							<div class="tobaccoContent">
+								<div class="cont">
+									<span class="tobacContent1">
+									百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。
+									
+									</span>
+									<span class="full_text">全文</span>
+								</div>
+							</div>
+						</a>
+						<div class="tobacco_list_pic">
+							<img src="../img/u120.svg"/>
+							<img src="../img/u120.svg"/>
+							<img src="../img/u120.svg"/>
+						</div>
+					</div>
+				</div><!--执法公示结束-->
+				
+				<div class="tobacco_content3">
+					<div class="tobacco_content1" style=""><!--法律法规开始-->
+						<p class="tobaccoNotice">法律法规</p>
+						<a href="#" class="tobaccoNotice_content">
+							<div class="tobaccoTitle1">
+								<div class="tobaccoTitle">当地中海的标题当地中海的标题当地中海的标题当地中海的标题当地中海的标题</div>
+								<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+							</div>
+							<div class="tobaccoContent">
+								<div class="cont">
+									<span class="tobacContent1">
+									百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点...</span>
+									<span class="full_text">全文</span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="tobaccoNotice_content">
+							<div class="tobaccoTitle1">
+								<div class="tobaccoTitle">当地中海的标题当地中海的标题当地中海的标题当地中海的标题当地中海的标题</div>
+								<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+							</div>
+							<div class="tobaccoContent">
+								<div class="cont">
+									<span class="tobacContent1">
+									百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点...</span>
+									<span class="full_text">全文</span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="tobaccoNotice_content">
+							<div class="tobaccoTitle1">
+								<div class="tobaccoTitle">当地中海的标题当地中海的标题当地中海的标题当地中海的标题当地中海的标题</div>
+								<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+							</div>
+							<div class="tobaccoContent">
+								<div class="cont">
+									<span class="tobacContent1">
+									百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。百度新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点...</span>
+									<span class="full_text">全文</span>
+								</div>
+							</div>
+						</a>
+					</div><!--法律法规结束-->
+				</div>
+				<div class="tobacco_content4">
+					<div>
+						<p class="tobacco_cartoon">宣传漫画</p>
+						<a href="#" class="tobaccoNotice_content">
+							<div class="tobaccoTitle1">
+								<div class="tobaccoTitle">第33期 人民的信仰</div>
+								<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+							</div>
+							<div class="tobacco_cartoon_pic">
+								<img src="../img/u153.png"/>
+							</div>
+						</a>
+						<a href="#" class="tobaccoNotice_content">
+							<div class="tobaccoTitle1">
+								<div class="tobaccoTitle">第33期 人民的信仰</div>
+								<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+							</div>
+							<div class="tobacco_cartoon_pic">
+								<img src="../img/u153.png"/>
+							</div>
+						</a>
+						<a href="#" class="tobaccoNotice_content">
+							<div class="tobaccoTitle1">
+								<div class="tobaccoTitle">第33期 人民的信仰</div>
+								<span>2018/09/01&nbsp;&nbsp;19:36:23</span>
+							</div>
+							<div class="tobacco_cartoon_pic">
+								<img src="../img/u153.png"/>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-v3-3.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<script>
+			$(".tobacco_title1").click(function() {
+				$(".tobacco_content1").show().siblings().hide();
+			});
+			$(".tobacco_title2").click(function() {
+				$(".tobacco_content2").show().siblings().hide();
+			});
+			$(".tobacco_title3").click(function() {
+				$(".tobacco_content3").show().siblings().hide();
+			});
+			$(".tobacco_title4").click(function() {
+				$(".tobacco_content4").show().siblings().hide();
+			});
+			$(function() {
+				var div = $.trim($(".tobacContent1").html());
+				if(div.length > 125) {
+					$(".tobacContent1").text($(".tobacContent1").text().substring(0, 125));
+					$(".tobacContent1").html($(".tobacContent1").html() + '...');
+				}
+			})
+		</script>
+	</body>
+
+</html>

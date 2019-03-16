@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/yc_style.css"/>
+	</head>
+
+	<body>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-col-sm-4 mui-col-xs-4 mui-pull-left click1" href="#">
+				<div class="mui-col-sm-5 mui-col-xs-5 tobacco_in">
+					<img class="icon2 mui-col-sm-12 mui-col-xs-12 public_display2" src="../img/u238.png"/>
+					<img class=" icon1 mui-col-sm-12 mui-col-xs-12" src="../img/u235.png"/>
+				</div>
+				<span class="mui-tab-label mui-col-sm-12 mui-col-xs-12 tobacco_label">宣传教育</span>
+			</a>
+			<a class="mui-col-sm-4 mui-col-xs-4 mui-pull-left click2" href="#">
+				<div class="mui-col-sm-5 mui-col-xs-5 tobacco_in">
+					<img class="icon3 mui-col-sm-12 mui-col-xs-12 public_display2" src="../img/u240.png"/>
+					<img class="icon4 mui-col-sm-12 mui-col-xs-12" src="../img/u243.png"/>
+				</div>
+				<span class="mui-tab-label mui-col-sm-12 mui-col-xs-12 tobacco_label">网上答题</span>
+			</a>
+			<a class="mui-col-sm-4 mui-col-xs-4 mui-pull-left click3" href="#">
+				<div class="mui-col-sm-5 mui-col-xs-5 tobacco_in">
+					<img class="icon5 mui-col-sm-12 mui-col-xs-12 public_display2" src="../img/u254.png"/>
+					<img class="icon6 mui-col-sm-12 mui-col-xs-12" src="../img/u251.png"/>
+				</div>
+				<span class="mui-tab-label mui-col-sm-12 mui-col-xs-12 tobacco_label">我的记分</span>
+			</a>
+		</nav>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-v3-3.js" ></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<!--下面的所有的子元素里面的第一个子元素里面的第一个元素-->
+		<script>
+			$(".click1").click(function(){
+				$(".icon1").show();
+				$(".icon2").hide();
+				$(".icon3").hide();
+				$(".icon4").show();
+				$(".icon5").hide();
+				$(".icon6").show();
+			})
+			$(".click2").click(function(){
+				$(".icon1").hide();
+				$(".icon2").show();
+				$(".icon3").show();
+				$(".icon4").hide();
+				$(".icon5").hide();
+				$(".icon6").show();
+			})
+			$(".click3").click(function(){
+				$(".icon1").hide();
+				$(".icon2").show();
+				$(".icon3").hide();
+				$(".icon4").show();
+				$(".icon5").show();
+				$(".icon6").hide();
+				
+			})
+		</script>
+	</body>
+
+</html>

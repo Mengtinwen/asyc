@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>漫画宣传</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/asyc.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">漫画宣传</h1>
+		</header>
+		<div class="mui-content">
+			<div class="PCL-BOX" style="margin-bottom: 55px;">
+				<ul class="mui-table-view">
+			        <!--<li class="mui-table-view-cell active">
+			            <div class="heard">
+							<h4>1中台轻国轻轻劝国劝劝国以中台轻国轻轻</h4>
+							<time>2019-5-12 09:43:12</time>
+						</div>
+						<div class="content">
+							<img class="img-width-100" src="img/weather.jpeg"/>
+						</div>
+			        </li>-->
+			    </ul>
+			</div>
+			
+			<div class="moed">
+				<div class="moed-box">
+					<ul class="mui-table-view">
+				       <!-- <li class="mui-table-view-cell"><span>第 100000 期</span></li>-->
+				    </ul>
+				</div>
+			</div>
+			
+			<nav class="mui-bar mui-bar-tab foot-pcl mui-text-center mui-row">
+			    <div @tap="showList" class="mui-col-xs-4">
+			    	{{qishu}}
+			    </div>
+			    <div @tap="prev" class="mui-col-xs-4">
+			    	<span>上一期</span>
+			    </div>
+			    <div @tap="next" class="mui-col-xs-4">
+			    	<span>下一期</span>
+			    </div>
+			</nav>
+		</div>
+		
+		
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-v3-3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init()
+			
+			var vm = new Vue({
+				el:".mui-content",
+				data:{
+					prevIndex:1,
+					listInedx:0,
+					listLenght:"",
+					qishu:"选择期数",
+				},
+				methods:{
+					showList(){
+						$(".moed").toggleClass("active")
+					},
+					prev(){
+						if(this.listInedx > 0){
+							this.listInedx -=1;
+							$(".PCL-BOX ul li").eq(this.listInedx).addClass("active").siblings().removeClass("active")
+							if(this.qishu != "选择漫画期数"){
+								if(vm.prevIndex > this.listInedx){
+									vm.qishu = "第 "+ (vm.prevIndex-=1) +" 期";
+								}
+							}
+						}
+						
+						$(".moed").removeClass("active")
+						mui.scrollTo(0,100)
+					},
+					next(){
+						this.listLenght =$(".PCL-BOX ul li").length;
+						if(this.listInedx < (this.listLenght-1)){
+							this.listInedx +=1;
+							$(".PCL-BOX ul li").eq(this.listInedx).addClass("active").siblings().removeClass("active")
+							if(this.qishu != "选择期数"){
+								if(vm.prevIndex < this.listLenght){
+									vm.qishu = "第 "+ (vm.prevIndex+=1) +" 期";
+								}
+							}
+						}
+						
+						$(".moed").removeClass("active")
+						mui.scrollTo(0,100)
+					},
+				}
+			})
+			
+			var clas = ".moed-box .mui-table-view .mui-table-view-cell";
+			$(document.body).on("tap",clas,function(){
+				vm.listInedx = $(this).index()
+				vm.prevIndex = parseInt($(this).attr("data-index"))+1
+				vm.qishu = "第 "+ (vm.prevIndex ) +" 期";
+				mui.scrollTo(0,100);
+				$(".moed").toggleClass("active")
+				$(".PCL-BOX ul li").eq($(this).index()).addClass("active").siblings().removeClass("active")
+			})
+			
+			
+			for (var i = 0;i<50;i++) {
+				var html2 = '<li class="mui-table-view-cell">'+
+					            '<div class="heard">'+
+									'<h4>第'+ (i+1) + '期：中台轻国轻轻劝国劝劝国以中台轻国轻轻</h4>'+
+									'<time>2019-5-12 09:43:12</time>'+
+								'</div>'+
+								'<div class="content">'+
+									'<img class="img-width-100" src="../img/weather.jpeg"/>'+
+									'<img class="img-width-100" src="../img/weather.jpeg"/>'+
+									'<img class="img-width-100" src="../img/weather.jpeg"/>'+
+								'</div>'+
+					        '</li>';
+				
+				var html = '<li class="mui-table-view-cell" data-index="'+ (i) +'"><span>第 '+ (i+1) +' 期</span></li>';
+				$(".moed-box ul").append(html)
+					        
+				$(".PCL-BOX .mui-table-view").append(html2)
+				$(".PCL-BOX .mui-table-view").find(".mui-table-view-cell").first().addClass("active")
+			}
+			
+			
+		</script>
+	</body>
+</html>

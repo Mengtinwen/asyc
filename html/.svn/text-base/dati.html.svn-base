@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/asyc.css"/>
+	</head>
+
+	<body>
+		<!--<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">标题</h1>
+		</header>-->
+		
+		<div class="mui-content dati">
+			<div class="dati-BOX">
+				<a href="mnst_ksmn.html">模拟答题</a>
+		    	<a href="dtbf_dtbf.html">答题补分</a>
+			</div>
+		    
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item" href="index.html">
+		        <span class="mui-icon"><img class="img-width-100" src="../img/u238.png"/></span>
+		        <span class="mui-tab-label">宣传教育</span>
+		    </a>
+		    <a class="mui-tab-item mui-active" href="dati.html">
+		        <span class="mui-icon"><img class="img-width-100" src="../img/u240.png"/></span>
+		        <span class="mui-tab-label">网上答题</span>
+		    </a>
+		    <a class="mui-tab-item" href="jifen.html">
+		        <span class="mui-icon"><img class="img-width-100" src="../img/u251.png"/></span>
+		        <span class="mui-tab-label">我的记分</span>
+		    </a>
+		</nav>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui('body').on('tap', 'a', function() {  
+		       document.location.href = this.href;  
+		    });
+		</script>
+	</body>
+</html>

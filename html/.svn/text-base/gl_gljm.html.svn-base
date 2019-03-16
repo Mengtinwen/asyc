@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>记分管理</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/dtbf.css"/>
+		<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_863170_a3jiem6hn8.css"/>
+		
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">记分管理</h1>
+		</header>
+		<div class="mui-content bgcolf">
+		    <div class="gl-input padd10">
+		    	<input type="text"/>
+				<button type="button">搜索</button>
+		    </div>
+		    <div class="gl-slider">
+		    	<div id="gl-a" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item disb mui-active"><span>全部商户</span><p>（999人）</p></a>
+					<a class="mui-control-item "><span class="gl-slider-span gl-slider-span1"></span><p>(12-9分)</p></a>
+					<a class="mui-control-item"><span class="gl-slider-span gl-slider-span2"></span><p>(9-6分)</p></a>
+					<a class="mui-control-item"><span class="gl-slider-span gl-slider-span3"></span><p>(6分以下)</p></a>
+				</div>
+				<div id="gl-list">
+					<!--全部商户-->
+					<div class="gl-list-list">
+						<ul class="mui-table-view">
+					        <li class="mui-table-view-cell gl-li">
+					            <a class="mui-navigate-right font15">1 安顺市西秀区四季便利店 <span class="floatr color7 marginright10">11分&nbsp;&nbsp;<span class="gl-slider-span gl-slider-span1"></span></a>
+					            <ul class="margintop10 disn">
+				                    <li class="">
+				                        <p class="font12">企业地址&nbsp;&nbsp;&nbsp;<span>贵州省安顺市西秀区龙青路20-23-S1-8商铺</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">许可证&nbsp;&nbsp;&nbsp;<span>213214548152</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">剩余积分&nbsp;&nbsp;&nbsp;<span class="color7">11分</span><span class="gl-slider-span gl-slider-span1 floatr"></span></p>
+				                    </li>
+				                    <li class="">
+				                       	<a href="gl_jfcx.html"><span class="gl-kuang">扣分记录</span></a>
+				                        <a href="gl_jfcx.html"><span class="gl-kuang">补分记录</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang kou-btn">扣分</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang gl-slider-span1 colorf bu-btn">补分</span></a>
+				                    </li>
+				                </ul>
+					        </li>
+					        <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right font15">2 安顺市西秀区四季便利店 <span class="floatr color8 marginright10">8分&nbsp;&nbsp;<span class="gl-slider-span gl-slider-span2"></span></a>
+					            <ul class="margintop10 disn">
+				                    <li class="">
+				                        <p class="font12">企业地址&nbsp;&nbsp;&nbsp;<span>贵州省安顺市西秀区龙青路20-23-S1-8商铺</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">许可证&nbsp;&nbsp;&nbsp;<span>213214548152</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">剩余积分&nbsp;&nbsp;&nbsp;<span class="color8">8分</span><span class="gl-slider-span gl-slider-span2 floatr"></span></p>
+				                    </li>
+				                    <li class="">
+				                       	<a href="gl_jfcx.html"><span class="gl-kuang">扣分记录</span></a>
+				                        <a href="gl_jfcx.html"><span class="gl-kuang">补分记录</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang kou-btn">扣分</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang gl-slider-span1 colorf bu-btn">补分</span></a>
+				                    </li>
+				                </ul>
+					        </li>
+					        <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right font15">3 安顺市西秀区四季便利店 <span class="floatr color9 marginright10">5分&nbsp;&nbsp;<span class="gl-slider-span gl-slider-span3"></span></a>
+					            <ul class="margintop10 disn">
+				                    <li class="">
+				                        <p class="font12">企业地址&nbsp;&nbsp;&nbsp;<span>贵州省安顺市西秀区龙青路20-23-S1-8商铺</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">许可证&nbsp;&nbsp;&nbsp;<span>213214548152</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">剩余积分&nbsp;&nbsp;&nbsp;<span class="color9">5分</span><span class="gl-slider-span gl-slider-span3 floatr"></span></p>
+				                    </li>
+				                    <li class="">
+				                       	<a href="gl_jfcx.html"><span class="gl-kuang">扣分记录</span></a>
+				                        <a href="gl_jfcx.html"><span class="gl-kuang">补分记录</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang kou-btn">扣分</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang gl-slider-span1 colorf bu-btn">补分</span></a>
+				                    </li>
+				                </ul>
+					        </li>
+					    </ul>
+					</div>
+					<!--蓝-->
+					<div class="gl-list-list disn">
+						<ul class="mui-table-view">
+					        <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right font15">1 安顺市西秀区四季便利店 <span class="floatr color7 marginright10">11分&nbsp;&nbsp;<span class="gl-slider-span gl-slider-span1"></span></a>
+					            <ul class="margintop10 disn">
+				                    <li class="">
+				                        <p class="font12">企业地址&nbsp;&nbsp;&nbsp;<span>贵州省安顺市西秀区龙青路20-23-S1-8商铺</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">许可证&nbsp;&nbsp;&nbsp;<span>213214548152</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">剩余积分&nbsp;&nbsp;&nbsp;<span class="color7">11分</span><span class="gl-slider-span gl-slider-span1 floatr"></span></p>
+				                    </li>
+				                    <li class="">
+				                       	<a href="gl_jfcx.html"><span class="gl-kuang">扣分记录</span></a>
+				                        <a href="gl_jfcx.html"><span class="gl-kuang">补分记录</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang kou-btn">扣分</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang gl-slider-span1 colorf bu-btn">补分</span></a>
+				                    </li>
+				                </ul>
+					        </li>
+				       </ul>
+					</div>
+					<!--黄-->
+					<div class="gl-list-list disn">
+						<ul class="mui-table-view">
+					        <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right font15">1 安顺市西秀区四季便利店 <span class="floatr color8 marginright10">8分&nbsp;&nbsp;<span class="gl-slider-span gl-slider-span2"></span></a>
+					            <ul class="margintop10 disn">
+				                    <li class="">
+				                        <p class="font12">企业地址&nbsp;&nbsp;&nbsp;<span>贵州省安顺市西秀区龙青路20-23-S1-8商铺</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">许可证&nbsp;&nbsp;&nbsp;<span>213214548152</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">剩余积分&nbsp;&nbsp;&nbsp;<span class="color8">8分</span><span class="gl-slider-span gl-slider-span2 floatr"></span></p>
+				                    </li>
+				                    <li class="">
+				                       	<a href="gl_jfcx.html"><span class="gl-kuang">扣分记录</span></a>
+				                        <a href="gl_jfcx.html"><span class="gl-kuang">补分记录</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang kou-btn">扣分</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang gl-slider-span1 colorf bu-btn">补分</span></a>
+				                    </li>
+				                </ul>
+					        </li>
+				       </ul>
+					</div>
+					<!--红-->
+					<div class="gl-list-list disn">
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell">
+					            <a class="mui-navigate-right font15">2 安顺市西秀区四季便利店 <span class="floatr color9 marginright10">5分&nbsp;&nbsp;<span class="gl-slider-span gl-slider-span3"></span></a>
+					            <ul class="margintop10 disn">
+				                    <li class="">
+				                        <p class="font12">企业地址&nbsp;&nbsp;&nbsp;<span>贵州省安顺市西秀区龙青路20-23-S1-8商铺</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">许可证&nbsp;&nbsp;&nbsp;<span>213214548152</span></p>
+				                    </li>
+				                    <li class="">
+				                        <p class="font12">剩余积分&nbsp;&nbsp;&nbsp;<span class="color9">5分</span><span class="gl-slider-span gl-slider-span3 floatr"></span></p>
+				                    </li>
+				                    <li class="">
+				                       	<a href="gl_jfcx.html"><span class="gl-kuang">扣分记录</span></a>
+				                        <a href="gl_jfcx.html"><span class="gl-kuang">补分记录</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang kou-btn">扣分</span></a>
+				                        <a href="javascript:void(0);"><span class="gl-kuang gl-slider-span1 colorf bu-btn">补分</span></a>
+				                    </li>
+				                </ul>
+					        </li>
+				       </ul>
+					</div>
+				</div>
+		    </div>
+		</div>
+		<!--扣分弹窗开始-->
+		<div class="koufen bgcolf">
+			<div class="mui-row padd10 borbtomc font15 bolder textcenter">扣分</div>
+			<div class="padd10 select">
+				<span class="text-14">请选择分值</span>
+				<select>
+				    <option value="audi">1分</option>
+				    <option value="audi">2分</option>
+				    <option value="audi">3分</option>
+				    <option value="audi">4分</option>
+				</select> 
+				<span class="iconfont icon-sanjiaojiantoushang"></span>
+				<button type="button" class="mui-btn mui-btn-blue addIMG mui-pull-right">上传附件</button>
+			</div>
+			<div class="padd0-10 margintop-10  kou-text">
+				<textarea  maxlength="120" onkeyup="getLength(this)" rows="4" placeholder="请输入扣分理由"></textarea>
+				<span class="num">0/120</span>
+			</div>
+			<div class="scfj-pic padd10 margintop-20">
+				<div class="mui-row Img-add">
+					<!-- <div class="mui-col-xs-3"><img class="img63" src="../img/weather.jpeg" alt="1" /></div>
+					<div class="mui-col-xs-3"><img class="img63" src="../img/weather.jpeg" alt="2" /></div>
+					<div class="mui-col-xs-3"><img class="img63" src="../img/weather.jpeg" alt="3" /></div>
+					<div class="mui-col-xs-3"><img class="img63" src="../img/weather.jpeg" alt="4" /></div> -->
+				</div>
+			</div>
+			<div class="mui-row padd0-10">
+				<a class="mui-col-xs-6 kou-button1">
+					<button type="button" class="bolder">取消</button>
+				</a>
+				<a class="mui-col-xs-6 kou-button2">
+					<button type="button" class="colorf">确认</button>
+				</a>
+			</div>
+		</div>
+		<div class="mui-backdrop"></div>
+		<!--扣分弹窗结束-->
+		
+		<!--补分弹窗开始-->
+		<div class="bufen bgcolf">
+			<div class="mui-row padd10 borbtomc font15 bolder textcenter">补分</div>
+			<div class="padd10 select">
+				<span class="text-14">请选择分值</span>
+				<select>
+				    <option value="audi">1分</option>
+				    <option value="audi">2分</option>
+				    <option value="audi">3分</option>
+				    <option value="audi">4分</option>
+				</select> 
+				<span class="iconfont icon-sanjiaojiantoushang"></span>
+				<button type="button" class="mui-btn mui-btn-blue addIMG mui-pull-right">上传附件</button>
+			</div>
+			<div class="padd0-10 margintop-10  kou-text">
+				<textarea maxlength="120" onkeyup="getLength(this)" rows="4" placeholder="请输入补分理由"></textarea>
+				<span class="num">0/120</span>
+			</div>
+			<div class="scfj-pic padd10 margintop-20">
+				<div  class="mui-row Img-add">
+					<!-- <div class="mui-col-xs-3"><input type="hidden" class="opacity"><img class="img63" src="../img/u212.png" alt="1" /></div>
+					<div class="mui-col-xs-3"><img class="img63" src="../img/u212.png" alt="2" /></div>
+					<div class="mui-col-xs-3"><img class="img63" src="../img/u212.png" alt="3" /></div>
+					<div class="mui-col-xs-3"><img class="img63" src="../img/u212.png" alt="4" /></div> -->
+				</div>
+			</div>
+			<div class="mui-row padd0-10">
+				<a class="mui-col-xs-6 bu-button1">
+					<button type="button" class="bolder">取消</button>
+				</a>
+				<a class="mui-col-xs-6 bu-button2">
+					<button type="button" class="colorf">确认</button>
+				</a>
+			</div>
+		</div>
+		<div class="mui-backdrop"></div>
+		<!--补分弹窗结束-->
+		
+		<!--上传附件弹窗开始-->
+		<div class="model">
+			<div class="model-box">
+				<ul class="mui-table-view">
+			        <li class="mui-table-view-cell"><input type="file" accept="image/*" capture="camera" /><span>手机拍照</span></li>
+			        <li class="mui-table-view-cell"><input type="file" accept="image/*"/><span>相册选择</span></li>
+			        <li id="centr" class="mui-table-view-cell">取消</li>
+			    </ul>
+			</div>
+		</div>
+		
+		<style type="text/css">
+			.model-box li span{
+				position: absolute;
+				width: 100%;
+				display: block;
+				top: 0;
+			}
+			.model-box li input[type='file']{
+				z-index: 999;
+				opacity: 0;
+				position: absolute;
+				width: 100%;
+				left: 0;
+				height: 100%;
+				line-height: 49px;
+			}
+		</style>
+		
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/jquery-v3-3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			
+			//  切换
+			$(".mui-control-item").on("tap",function(){
+				$(this).addClass("disb").siblings().removeClass("disb")
+				$("#gl-list .gl-list-list").eq($(this).index()).addClass("disb").removeClass("disn").siblings().removeClass("disb").addClass("disn");
+				if($(this).index() == 1){
+					$(this).addClass("active2").siblings("").removeClass("active3").removeClass("active1").removeClass("active4")
+				}else if($(this).index() == 2){
+					$(this).addClass("active3").siblings("").removeClass("active2").removeClass("active1").removeClass("active4")
+				}else if($(this).index() == 3){
+					$(this).addClass("active4").siblings("").removeClass("active3").removeClass("active2").removeClass("active1")
+				}else if($(this).index() == 0){
+					$(this).addClass("active1").siblings("").removeClass("active3").removeClass("active2").removeClass("active4")
+				}
+			})
+			
+		
+			$('.gl-list-list ul>li>a').on('tap',function(){
+				$(this).parent().find("ul").toggleClass('active')
+				$(this).parent().find(".font15 .floatr").toggleClass("mui-hidden")
+				$(this).parent().find(".font15").toggleClass("active")
+			})
+			// 扣分弹窗
+			$('.kou-btn').on('tap',function(){
+				$('.koufen').addClass("active")
+				$('.mui-backdrop').addClass('active')
+			})
+			
+			// 补分弹窗
+			$('.bu-btn').on('tap',function(){
+				$('.bufen').addClass("active")
+				$('.mui-backdrop').addClass('active')
+			})
+			
+			function getLength(e){
+				console.log($(e).val())
+				console.log($(e).val().length)
+				var len = $(e).val().length;
+				if(len <= 120){
+					$(e).next().text(len+"/120")
+				}else{
+					mui.toast("不能输入了")
+				}
+			}
+			
+			$('.padd0-10 .mui-col-xs-6').on('tap',function(){
+				$(this).parents('.bgcolf').removeClass('active')
+				$('.mui-backdrop').removeClass('active')
+				$(this).parents('.bgcolf').find("textarea").val("")
+			})
+			
+			//上传图片弹出层
+			$(".select .addIMG").on("tap",function(){
+				$_self = $(this);
+				$(".model").addClass("active")
+				setTimeout(function(){
+					$(".model-box").addClass("active")
+				},100)
+			})
+			
+			
+			//取消图片上传
+			$("#centr").on("tap",function(){
+				$(".model-box").removeClass("active")
+				setTimeout(function(){
+					$(".model").removeClass("active")
+				},400)
+			})
+			
+			
+			/**
+			 * 补分、扣分上传图片
+			 */
+			var len = 0;
+			$(".model-box input[type='file']").on("change",function(){
+				len +=1;
+				if(len <= 4){
+					var files = !!this.files ? this.files : [];
+					if (!files.length || !window.FileReader) return;
+					if (/^image/.test( files[0].type)){
+						var reader = new FileReader();
+						reader.readAsDataURL(files[0]);
+						reader.onloadend = function(){
+							var html = '<div class="mui-col-xs-3"><input type="hidden" value="'+ this.result +'" class="opacity"><img class="img63" src="'+this.result+'" alt="1" /></div>'
+							$_self.parents(".bgcolf").find(".Img-add").append(html)
+						}
+					}
+				}else{
+					alert('上传图片达到上限！')
+				}
+			})
+			
+		</script>
+	</body>
+</html>

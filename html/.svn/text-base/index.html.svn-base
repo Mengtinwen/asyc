@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/asyc.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_863170_qwavv4x9yjf.css"/>
+	</head>
+	<body>
+		<div class="mui-content asyc">
+			<div class="ad-img"><img class="img-width-100" src="../img/u159.png"/></div>
+			<div id="body-mune" class="body-mune mui-row">
+				<div class="mui-col-xs-3"><div class="img active"><img src="../img/u79.png" alt="" class="img-width-100" /></div><span class="title active">通知公告</span></div>
+				<div class="mui-col-xs-3"><div class="img"><img src="../img/u77.png" alt="" class="img-width-100" /></div><span class="title">执法公示</span></div>
+				<div class="mui-col-xs-3"><div class="img"><img src="../img/u75.png" alt="" class="img-width-100" /></div><span class="title">法律法规</span></div>
+				<div class="mui-col-xs-3"><div class="img"><img src="../img/u76.png" alt="" class="img-width-100" /></div><span class="title">宣传漫画</span></div>
+			</div>
+			<!--<div id="pullrefresh" class="mui-scroll-wrapper" style="margin-top: 300px;">
+				<div class="mui-scroll">-->
+					<div class="gonggao">
+						<div class="gg-list active">
+							<div class="gg-title">通知公告：<a href="kengduo.html?title=通知公告" class="mui-pull-right">查看更多</a></div>
+							<ul class="mui-table-view">
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							</ul>
+						</div>
+						<div class="gg-list">
+							<div class="gg-title">执法公示：<a href="kengduo.html?title=执法公示" class="mui-pull-right">查看更多</a></div>
+							<ul class="mui-table-view">
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							</ul>
+						</div>
+						<div class="gg-list">
+							<div class="gg-title">法律法规：<a href="kengduo.html?title=法律法规" class="mui-pull-right">查看更多</a></div>
+							<ul class="mui-table-view">
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="particular.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							</ul>
+						</div>
+						<div class="gg-list">
+							<div class="gg-title">宣传漫画：<a href="kengduo.html?title=宣传漫画" class="mui-pull-right">查看更多</a></div>
+							<ul class="mui-table-view">
+							    <li class="mui-table-view-cell">
+							        <a href="cartoon.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="cartoon.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="cartoon.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="cartoon.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="cartoon.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="cartoon.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							    <li class="mui-table-view-cell">
+							        <a href="cartoon.html" class="">
+							           	<div class="list-title">2017年，微信已经全面支持公众平台内的网页开发微信已经全面支持公众平台</div>
+							           	<div class="content">并且提供了网页开发样式库、JSSDK库和网页内支付、网页调试工具，Web开发人员可以利用这些功能开发出更多、更好、更炫的微信内应用。《微信公众平台网页开发实战——HTML5+JSSDK混合开发解密》立志于帮助微信开发者更好地学习微信中的网页开发和JSSDK库。</div>
+							           	<div class="sendTime">2019-5-12 23:12:45</div>
+							        </a>
+							    </li>
+							</ul>
+						</div>
+					</div>
+				<!--</div>
+			</div>-->
+			
+			<div class="back-top mui-hidden"><a href="kengduo.html?title=通知公告">查看更多</a><i class="iconfont icon-huidingbu"></i></div>
+		</div>
+		
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active" href="index.html">
+		        <span class="mui-icon"><img class="img-width-100" src="../img/u235.png"/></span>
+		        <span class="mui-tab-label">宣传教育</span>
+		    </a>
+		    <a class="mui-tab-item" href="dati.html">
+		        <span class="mui-icon"><img class="img-width-100" src="../img/u243.png"/></span>
+		        <span class="mui-tab-label">网上答题</span>
+		    </a>
+		    <a class="mui-tab-item" href="jifen.html">
+		        <span class="mui-icon"><img class="img-width-100" src="../img/u251.png"/></span>
+		        <span class="mui-tab-label">我的记分</span>
+		    </a>
+		</nav>
+		<script src="../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-v3-3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/Gather.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			
+			mui('body').on('tap', 'a', function() {  
+		       document.location.href = this.href;  
+		    });
+		    
+			$(".back-top").on("tap",".iconfont",function(){
+				mui.scrollTo(0,300);
+			})
+			
+			function isLeapYear(year) {  return (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);  }
+			 
+			$(".body-mune .mui-col-xs-3").on("tap",function(){
+				$(".back-top a").attr("href","kengduo.html?title="+$(this).find("span.title").text())
+				
+				$(this).find(".img,.title").addClass("active").parent().siblings().find(".img,.title").removeClass("active")
+				$(".gonggao .gg-list").eq($(this).index()).addClass("active").siblings().removeClass("active")
+				
+				mui.scrollTo(0,100);
+			})
+			
+			
+			window.onscroll = function() {
+				//为了保证兼容性，这里取两个值，哪个有值取哪一个
+				//scrollTop就是触发滚轮事件时滚轮的高度
+				var het = $(".ad-img").height()
+				var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+				if(scrollTop > (het+150)){
+					$(".body-mune,.gonggao").addClass("active")
+					$(".back-top").removeClass("mui-hidden")  
+				}else{
+					$(".body-mune,.gonggao").removeClass("active")
+					$(".back-top").addClass("mui-hidden") 
+				}
+			}
+			
+			
+		    mui.init();
+			
+		</script>
+	</body>
+</html>
+

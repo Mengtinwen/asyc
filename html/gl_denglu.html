@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>安顺烟草零售许可证积分管理</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/dtbf.css"/>
+	</head>
+	<style type="text/css">
+		.mui-content{
+			background: #fff;
+		}
+		.heardImg{
+			margin: 20px;
+			text-align: center;
+		}
+		.heardImg img{
+		    width: 70px;
+    		height: 70px;
+		}
+		.logo-box{
+			padding: 20px;
+		}
+		
+		.logo-box input{
+			font-size: 14px;
+		    color: #555;
+		    padding: 0 15px;
+		    border-radius: 30px;
+		    border: 1px solid rgba(255, 102, 0, 0.4);
+		    line-height: 70px;
+		    height: 40px;
+		}
+		
+		.loginBtn button{
+			width: 100%;
+		    border-radius: 30px;
+		    height: 40px;
+		    background: linear-gradient(to left,#4ada0e,#8aff59);
+		    border: 0;
+	        color: #fff;
+		}
+		
+		.tabNav{
+		    font-size: 14px;
+		    color: #555;
+		    margin-top: 10px;
+		}
+		
+		.tabNav .tab{
+			/*display: none;*/
+		}
+		.tabNav .tab.active{display: block;}
+		.mui-bar{background: #fff;}
+	</style>
+	<body>
+		<header class="mui-bar mui-bar-nav dl">
+		    <a class="mui-action-back mui-icon mui-icon-closeempty mui-pull-left"></a>
+		</header>
+		<div class="mui-content">
+		    <div class="heardImg"><img src="../img/u352.svg"/></div>
+		    <div class="logo-box">
+		    	<form >
+		    		<div class="userName"><input @keyup="keyups($event)" type="text" :placeholder="placeholder" v-model="userName" /></div>
+			    	<div class="password"><input @keyup="keyups($event)" type="password" placeholder="请输入密码" v-model="passWord" /></div>
+			    	<div class="loginBtn"><button @tap="Login" disabled="disabled" type="submit">登录</button></div>
+			    	<div class="tabNav mui-row" >
+			    		<div class="mui-col-xs-6">
+			    			<div @tap="handlTab" v-if="ismange" class="tab user">用户登录</div>
+			    			<div @tap="handlTab" v-else class="tab guanli">管理员登录</div>
+			    		</div>
+			    		<div class="mui-col-xs-6 mui-hidden mui-text-right">注册</div>
+			    	</div>
+		    	</form>
+		    </div>
+		</div>
+		
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/jquery-v3-3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui(document.body).on('tap', '.mui-btn', function(e) {
+            mui(this).button('loading');
+            setTimeout(function() {
+                mui(this).button('reset');
+            }.bind(this), 2000);
+        });
+			var hei = document.documentElement.clientHeight;
+			$("#denglu").height(hei)
+			
+			var vm = new Vue({
+				el:".mui-content",
+				data:{
+					ismange:true,
+					placeholder:"请输入管理员账号",
+					userName:"",
+					passWord:"",
+				},
+				methods:{
+					handlTab(){
+						this.userName = this.passWord = ""
+						$(".loginBtn button").attr("disabled",true)
+						if(this.ismange){
+							this.ismange = false
+							$(".password").hide();
+							this.placeholder = "请输入许可证号"
+						}else{
+							this.ismange = true
+							$(".password").show();
+							this.placeholder = "请输入管理员账号"
+						}
+					},
+					keyups(e){
+						if(this.ismange){
+							if(this.userName != "" && this.passWord != ""){
+								$(".loginBtn button").removeAttr("disabled")
+							}else{
+								$(".loginBtn button").attr("disabled",true)
+							}
+						}else{
+							if(this.userName != ""){
+								$(".loginBtn button").removeAttr("disabled")
+							}else{
+								$(".loginBtn button").attr("disabled",true)
+							}
+						}
+					},
+					Login(){
+						mui.toast("登录成功！")
+					}
+				}
+			})
+			
+		</script>
+	</body>
+
+</html>

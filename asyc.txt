@@ -1,0 +1,17 @@
+登录注册：dlzc.html
+管理员登录：gl_denglu.html
+管理员登录--管理界面：gl_gljm.html
+管理员登录--记分查询：gl_jfcx.html
+模拟试题：mnst_mnst.html
+模拟试题--开始模拟考试：mnst_ksmn.html
+答题补分开始：dtbf_ks.html
+答题补分开始--答题补分：dtbf_dtbf.html
+答题补分开始--答题补分--不及格：dtbf_dtcj.html
+答题补分开始--答题补分--及格：dtbf_dtcj_jg.html
+答题补分开始--答题补分--查看错题：dtbf_ckct.html
+查看更多：kengduo.html
+首页：index.html
+宣传漫画：cartoon.html
+网上答题：dati.html
+我的记分：jifen.html
+通知公告、执法公示、法律法规（详情页）：particular.html

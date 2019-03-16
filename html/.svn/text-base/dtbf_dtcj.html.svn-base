@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/dtbf.css"/>
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_805205_g6hxhvnvefe.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav transparent">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		</header>
+		<div class="mui-content paddtop0 muicont">
+		    <div class="dtcj-top"></div>
+		    <div class="mui-card dtcj-cont">
+		    	<img class="img70 block" src="../img/u994.jpg"/>
+		    	<div class="textcenter font18 bolder margintop-20">姓名</div>
+		    	<div class="margintop50 textcenter">
+		    		<span class="font85 bolder">70</span><span class="font40 bolder">分</span>
+		    	</div>
+		    	<div class="mui-row mui-text-center margintop50">
+		    		<div class="mui-col-xs-6">
+		    			<span class="font15 bolder">09:46</span>
+		    			<p class="font15 margintop10">答题用时</p>
+		    		</div>
+		    		<div class="mui-col-xs-6">
+		    			<span class="font15 bolder">不合格</span>
+		    			<p class="font15 margintop10">答题结果</p>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="dtbf-foot mui-row mui-text-center">
+		    	<a class="mui-col-xs-6" href="dtbf_ks.html">
+		    		<span class=""><img src="../img/u1352.png" class="img35" /></span>
+		    		<p class="font15 margintop10">重新答题</p>
+		    	</a>
+		    	<a class="mui-col-xs-6" href="dtbf_ckct.html">
+		    		<span class=""><img src="../img/u1351.png" class="img35" /></span>
+		    		<p class="font15 margintop10">查看错题</p>
+		    	</a>
+		    </div>
+		</div>
+		
+		<script src="../js/jquery-v3-3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			
+		</script>
+	</body>
+
+</html>

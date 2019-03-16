@@ -1,0 +1,45 @@
+*{font-size:14px}
+a:active{color:#535353!important}
+.public_display1{display:block}
+.public_display2{display:none}
+.tobacco_in{margin:0 auto;}
+.tobacco_top{box-shadow:0 0 0 transparent!important}
+.mui-content .tobacco_poster>img{width:100%}
+.mui-content .tobacco_nav{padding:8px;padding-top:3px}
+.tobacco_nav .tobacco_top_Catalog{width:100%;background-color:#fff;border-radius:10px;padding:10px}
+.tobacco_nav .tobacco_top_Catalog .mui-col-sm-3 .tobacco_title{border:1px solid #000;border-radius:50%;width:50px!important;height:50px;text-align:center;line-height:69px;margin:0 auto}
+.tobacco_nav .tobacco_top_Catalog>div>p{text-align:center;font-weight:400;font-size:14px}
+.tobacco_nav .tobacco_top_Catalog .mui-col-sm-3 .tobacco_title .tobacco_top_icon{left:-4px;top:-2px}
+.tobacco_contentBox{width:100%;padding:10px}
+.tobacco_contentBox .tobacco_content1,.tobacco_content2,.tobacco_content3,.tobacco_content4{height:auto;background-color:#Fff;border-radius:10px}
+.tobacco_contentBox .tobacco_content2,.tobacco_content3,.tobacco_content4{display:none}
+.tobacco_contentBox div .tobaccoNotice,.tobacco_cartoon{text-indent:1em;line-height:40px;color:#000;font-size:16px;border-bottom:1px solid #ccc;font-weight:700}
+.tobacco_contentBox div .tobaccoNotice_content .tobaccoTitle{width:68%;font-size:15px;float:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#000;font-weight:700}
+.tobaccoNotice_content{padding:8px;display:block;color:#535353;cursor:pointer;border-bottom:1px solid #efefef}
+.tobaccoNotice_content .tobaccoTitle1>span{font-size:12px;color:#c1c1c1}
+.tobaccoNotice_content2 .tobaccoTitle1>span{font-size:12px;color:#c1c1c1}
+.tobaccoContent{text-indent:2em}
+.tobacContent1{font-size:14px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
+.tobacContent1>.full_text{font-size:13px;color:red}
+.full_text{color:red;display:block;width:100%;height:20px;text-align:right}
+.tobacco_list_pic{display:flex;justify-content:space-around}
+.tobacco_list_pic>img{width:30%}
+.tobaccoNotice_content2{padding:8px;display:block;color:#535353;cursor:pointer}
+.enforce_the_law{border-bottom:1px solid #efefef;padding-bottom:13px}
+/*宣传漫画*/
+.tobacco_cartoon_pic{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.tobacco_cartoon_pic,
+.tobacco_cartoon_pic>img{
+	width: 100%;
+}
+/*底部*/
+.tobacco_label{
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	color: #000000;
+}
